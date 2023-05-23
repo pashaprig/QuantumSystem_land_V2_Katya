@@ -1,12 +1,9 @@
 .page-body {
   margin: 0;
-  font-family: "Montserrat", "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-
-  @media (min-width: $tablet-width) {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+  font-size: 20px;
+  line-height: 24px;
+  color: $basic-white;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), no-repeat 50% 50% url("../img/img/main-bcg.png");
 }

@@ -1,0 +1,24 @@
+.promo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.promo__bottom {
+  display: flex;
+}
+
+.promo__heading {
+  padding: 0 200px 25px;
+  font-family: 'Arial';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+}
+
+.promo__about {
+  text-align: center;
+  padding: 0 70px 40px;
+}

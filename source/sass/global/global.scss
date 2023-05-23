@@ -46,7 +46,7 @@ button {
   justify-content: center;
   height: 55px;
   padding: 0 15px;
-  font-family: "Montserrat", "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -79,6 +79,6 @@ button {
   padding: 0 96px;
 
   @media (max-width: $tablet-width) {
-    padding: 0 16px;
+    padding: 0 20px;
   }
 }

@@ -1,11 +1,14 @@
 .page-header {
-  display: flex;
-  background-color: lightblue;
+  padding-top: 43px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid $basic-white;
+
+  & > .container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
 
   @media (min-width: $tablet-width) {
   }
-}
-
-.daily-pay__icon {
-  fill: white;
 }
