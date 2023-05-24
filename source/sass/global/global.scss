@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  min-height: 100vh;
 }
 
 .visually-hidden {
@@ -31,6 +32,14 @@ ul {
 
 a {
   text-decoration: none;
+
+   &:hover {
+    opacity: 0.8;
+   }
+
+   &:active {
+    opacity: 0.6;
+   }
 }
 
 a,
@@ -41,30 +50,24 @@ button {
 .btn {
   box-sizing: border-box;
   display: flex;
-  gap: 10px;
   align-items: center;
   justify-content: center;
-  height: 55px;
-  padding: 0 15px;
+  padding: 12px;
   font-family: "Inter", "Arial", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  color: $main-color;
-  background-color: transparent;
-  border: 1px solid $main-color;
+  color: $basic-white;
+  background-color: $btn-color;
+  border: none;
+  border-radius: 5px;
 
   & svg {
     fill: $main-color;
   }
 
   &:hover {
-    color: $bcg-black;
-    background-color: $main-color;
-
-    svg {
-      fill: $bcg-black;
-    }
+    background: linear-gradient(180deg, #5DC741 0%, #1D5010 100%);
   }
 
   &:active {
