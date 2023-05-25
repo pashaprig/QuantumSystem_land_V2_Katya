@@ -7,4 +7,10 @@
   color: $basic-white;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), no-repeat 50% 50% url("../img/img/main-bcg.png");
   background-size: cover;
+
+
+  @media (max-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 19px;
+  }
 }

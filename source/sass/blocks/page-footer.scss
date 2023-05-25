@@ -4,6 +4,12 @@
   align-items: center;
   padding: 50px 0;
   border-top: 1px solid $basic-white;
+
+  @media (max-width: $tablet-width) {
+    align-items: start;
+    padding: 14px 20px;
+    padding-bottom: 0;
+  }
 }
 
 .page-footer__list {
@@ -11,8 +17,23 @@
   gap: 50px;
   align-items: center;
   margin-bottom: 24px;
+
+  @media (max-width: $tablet-width) {
+    flex-direction: column;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 5px;
+  }
 }
 
 .page-footer__link {
   color: $basic-white;
+}
+
+.page-footer__copyright {
+  display: flex;
+  width: calc(100% + 40px);
+  margin-left: -20px;
+  padding: 14px 20px;
+  background: #484848;
 }

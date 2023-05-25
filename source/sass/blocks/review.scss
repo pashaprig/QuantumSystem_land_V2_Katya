@@ -1,5 +1,9 @@
 .review {
   margin-bottom: 50px;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 80px;
+  }
 }
 
 .review__heading {
@@ -8,7 +12,14 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  text-transform: uppercase
+  text-transform: uppercase;
+
+  @media (max-width: $tablet-width) {
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+  }
 }
 
 .review__item {
@@ -16,4 +27,12 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+
+.review__name {
+  font-weight: 700;
+}
+
+.review__profit {
+  font-weight: 500;
 }
